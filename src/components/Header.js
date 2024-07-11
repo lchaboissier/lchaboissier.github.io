@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
+import '../app/globals.css';
 
 const Header = () => {
   const [theme, setTheme] = useState("light");
@@ -30,7 +31,7 @@ const Header = () => {
       <nav>
         <ul className="flex space-x-4">
           <li>
-            <Link href="/" legacyBehavior>
+            <Link href="#hero" legacyBehavior>
               <a className="text-white">Accueil</a>
             </Link>
           </li>

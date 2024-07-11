@@ -1,19 +1,17 @@
-import Image from "next/image";
-import Head from 'next/head';
 import Header from '../components/Header';
 import AccueilSection from '../components/AccueilSection';
 import Footer from '../components/Footer';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import PresentationSection from '@/components/PresentationSection';
+import { config } from '@fortawesome/fontawesome-svg-core';
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Portfolio de Luca Chaboissier</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Header />
       <main>
         <AccueilSection />
+        <PresentationSection />
       </main>
       <Footer />
     </div>
