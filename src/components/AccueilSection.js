@@ -17,7 +17,7 @@ const AccueilSection = () => {
           Étudiant dans le développement Informatique
         </p>
         <div className="flex space-x-4 mt-4">
-          <a href="https://www.linkedin.com/in/luca-chaboissier/" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-100 flex items-center">
+          <a href="https://www.linkedin.com/in/luca-chaboissier/" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-800 transition duration-100 flex items-center">
             <FontAwesomeIcon icon={faLinkedin} />
             <span className="ml-2">LinkedIn</span>
           </a>

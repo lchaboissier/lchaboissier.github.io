@@ -32,10 +32,20 @@ body {
   }
 }
 
-a {
-  text-decoration: none; /* Supprime le soulignement */
+.skill-icon img {
+  filter: grayscale(100%);
+  transition: filter 0.1s ease;
 }
 
-a:hover {
-  text-decoration: underline; /* Rétablit le soulignement au survol (facultatif) */
+.skill-icon:hover img {
+  filter: grayscale(0%);
+}
+
+.tool-icon img {
+  filter: grayscale(100%);
+  transition: filter 0.1s ease;
+}
+
+.tool-icon:hover img {
+  filter: grayscale(0%);
 }
