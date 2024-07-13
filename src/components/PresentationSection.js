@@ -32,7 +32,7 @@ const PresentationSection = () => {
             <div className="mt-8 flex">
               <a href="/documents/CV - Luca Chaboissier.pdf" target="_blank" className="bg-gray-700 hover:bg-gray-900 text-white duration-100 font-bold py-2 px-4 rounded">
                 <FontAwesomeIcon icon={faDownload} />
-                ‎ Télécharger mon CV
+                <span className="ml-2">Télécharger mon CV</span>
               </a>
             </div>
           </div>
