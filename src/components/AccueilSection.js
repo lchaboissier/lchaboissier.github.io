@@ -8,11 +8,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const AccueilSection = () => {
   return (
-  <section id="hero" className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 p-8">
+  <section id="hero" className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 p-8">
     <div className="container mx-auto flex flex-col md:flex-row items-center">
       <div className="text-left md:w-1/2">
         <h2 className="text-4xl text-gray-700 dark:text-gray-300 mb-6">Bonjour,</h2>
         <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">Je suis Luca Chaboissier 👋🏻</h1>
+        <div class="flex items-center space-x-5 text-indigo-500 mb-8">                
+          <div class="w-40 h-4 rounded-full bg-indigo-500"></div>
+          <div class="w-20 h-4 rounded-full bg-indigo-500"></div>
+          <div class="w-40 h-4 rounded-full bg-indigo-500"></div>
+          <div class="w-20 h-4 rounded-full bg-indigo-500"></div>
+          <div class="w-40 h-4 rounded-full bg-indigo-500"></div>
+        </div>
         <p className="text-xl text-gray-700 dark:text-gray-300">
           Étudiant dans le développement Informatique
         </p>

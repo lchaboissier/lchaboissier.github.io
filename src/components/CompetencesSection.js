@@ -45,13 +45,16 @@ const CompetencesSection = () => {
   return (
     <section
       id="competences"
-      className="min-h-screen flex flex-col items-center bg-gray-100 dark:bg-gray-900 p-8"
+      className="min-h-screen flex flex-col items-center bg-white dark:bg-gray-900 p-8"
     >
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
           Compétences
         </h2>
-
+        <div class="flex items-center space-x-5 text-indigo-500 mb-8">                
+          <div class="w-40 h-1.5 rounded-full bg-indigo-500"></div>
+          <div class="w-20 h-1.5 rounded-full bg-indigo-500"></div>
+        </div>
         <h3 className="text-2xl text-gray-700 dark:text-gray-300 mb-6">
           Langages de programmation utilisés
         </h3>
