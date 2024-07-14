@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import PresentationSection from '@/components/PresentationSection';
 import CompetencesSection from '@/components/CompetencesSection';
 import ProjetsSection from '@/components/ProjetsSection';
+import ExperiencesSection from '@/components/ExperiencesSection';
 import { config } from '@fortawesome/fontawesome-svg-core';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <PresentationSection />
         <CompetencesSection />
         <ProjetsSection />
+        <ExperiencesSection />
       </main>
       <Footer />
     </div>

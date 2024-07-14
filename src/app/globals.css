@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  transition: background-color 1s ease, color 1s ease;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -48,4 +52,23 @@ body {
 
 .tool-icon:hover img {
   filter: grayscale(0%);
+}
+
+.experience-card {
+  position: relative;
+}
+
+.experience-point {
+  background: #d1d5db; /* Tailwind gray-300 */
+}
+
+.experience-card:nth-child(even)::before {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.experience-card:nth-child(odd)::before {
+  left: 50%;
+  transform: translateX(-50%);
 }

@@ -72,7 +72,7 @@ const ProjectsSection = () => {
                   ))}
                 </div>
                 <div className="flex space-x-4">
-                  <a href={project.detailsLink} className="bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-100 disabled">
+                  <a href={project.detailsLink} className="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-100 disabled">
                     Détails
                   </a>
                   <a href={project.sourceLink} className="bg-gray-800 text-white py-2 px-4 rounded-full hover:bg-gray-900 transition duration-100">

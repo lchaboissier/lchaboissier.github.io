@@ -58,7 +58,7 @@ const Header = () => {
           <li>
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-full bg-gray-700 text-white focus:outline-none"
+              className="p-2 rounded-full bg-gray-700 text-white focus:outline-none transition duration-500"
             >
               {theme === "light" ? (
                 <MoonIcon className="h-6 w-6" />
