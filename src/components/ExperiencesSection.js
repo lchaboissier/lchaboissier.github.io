@@ -72,9 +72,9 @@ const ExperienceSection = () => {
     <section id="experiences" className="min-h-screen flex flex-col items-center bg-white dark:bg-gray-900 p-8">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Expériences</h2>
-        <div class="flex items-center space-x-5 text-indigo-500 mb-8">                
-          <div class="w-40 h-1.5 rounded-full bg-indigo-500"></div>
-          <div class="w-20 h-1.5 rounded-full bg-indigo-500"></div>
+        <div className="flex items-center space-x-5 text-indigo-500 mb-8">                
+          <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>
+          <div className="w-20 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
         <div className="relative border-l border-gray-400 dark:border-gray-700 pl-6">
           {experiences.map((experience, index) => (

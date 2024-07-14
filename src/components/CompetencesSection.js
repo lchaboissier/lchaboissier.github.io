@@ -52,9 +52,9 @@ const CompetencesSection = () => {
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
           Compétences
         </h2>
-        <div class="flex items-center space-x-5 text-indigo-500 mb-8">                
-          <div class="w-40 h-1.5 rounded-full bg-indigo-500"></div>
-          <div class="w-20 h-1.5 rounded-full bg-indigo-500"></div>
+        <div className="flex items-center space-x-5 text-indigo-500 mb-8">                
+          <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>
+          <div className="w-20 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
         <h3 className="text-2xl text-gray-700 dark:text-gray-300 mb-6">
           Langages de programmation utilisés

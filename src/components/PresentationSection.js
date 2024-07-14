@@ -12,10 +12,10 @@ const PresentationSection = () => {
         <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-3">
           À propos de moi
         </h2>
-        <div class="flex justify-center items-center space-x-5 text-indigo-500 mb-10">                
-          <div class="w-40 h-1.5 rounded-full bg-indigo-500"></div>
-          <div class="w-10 h-1.5 rounded-full bg-indigo-500"></div>
-          <div class="w-10 h-1.5 rounded-full bg-indigo-500"></div>
+        <div className="flex justify-center items-center space-x-5 text-indigo-500 mb-10">                
+          <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>
+          <div className="w-10 h-1.5 rounded-full bg-indigo-500"></div>
+          <div className="w-10 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
