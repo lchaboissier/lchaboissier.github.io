@@ -47,13 +47,13 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projets" className="min-h-screen flex flex-col items-center bg-gray-100 dark:bg-gray-800 p-8">
+    <section id="projets" className="min-h-screen bg-gray-100 flex flex-col items-center p-8">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Projets</h2>
         <div className="flex items-center space-x-5 text-indigo-500 mb-8">                
           <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
-        <p className="text-2xl font-normal text-gray-700 mb-4">L&apos;ensemble des créations que j&apos;ai pu réaliser</p>
+        <p className="dark:text-gray-300 text-2xl font-normal text-gray-700 mb-4">L&apos;ensemble des créations que j&apos;ai pu réaliser</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">

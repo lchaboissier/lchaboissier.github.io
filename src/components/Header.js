@@ -13,14 +13,22 @@ const Header = () => {
   useEffect(() => {
     const currentTheme = localStorage.getItem("theme") || "light";
     setTheme(currentTheme);
-    document.documentElement.classList.toggle("dark", currentTheme === "dark");
+    if (currentTheme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   }, []);
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
-    document.documentElement.classList.toggle("dark", newTheme === "dark");
+    if (newTheme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   };
 
   return (
@@ -65,7 +73,7 @@ const Header = () => {
           <li>
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-full bg-gray-700 text-white focus:outline-none transition duration-500"
+              className="p-2 rounded-full bg-gray-700 text-white focus:outline-none"
             >
               {theme === "light" ? (
                 <MoonIcon className="h-6 w-6" />

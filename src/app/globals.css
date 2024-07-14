@@ -8,6 +8,12 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+html.dark :root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -21,13 +27,37 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--foreground-rgb)) !important;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)) !important;
+}
+
+/* Ajouter des styles spécifiques pour renforcer le mode sombre */
+html.dark body {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)) !important;
+  color: rgb(var(--foreground-rgb)) !important;
+}
+
+/* Styles spécifiques pour les sections */
+html.dark #hero,
+html.dark #competences,
+html.dark #experiences {
+  background-color: rgb(15, 23, 42) !important;
+}
+
+html.dark #presentation,
+html.dark #projets,
+html.dark #formations {
+  background-color: rgb(30, 41, 59) !important; /* Tailwind gray-900 */
 }
 
 @layer utilities {

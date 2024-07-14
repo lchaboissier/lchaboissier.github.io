@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-      <footer className="bg-gray-800 text-white py-10">
+      <footer className="dark:bg-slate-900 bg-gray-800 text-white py-10">
         <div className="container mx-auto flex flex-col items-center">
           <div className="flex space-x-4 mb-4">
             <a
