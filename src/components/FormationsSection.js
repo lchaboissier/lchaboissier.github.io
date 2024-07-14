@@ -7,7 +7,7 @@ const formations = [
       location: "Université de Bretagne Occidentale, Brest (29200)",
     },
     {
-      title: "Licence Professionnel : Applications Mobiles et Internet des Objets",
+      title: "Licence Professionnelle — Applications Mobiles et Internet des Objets",
       period: "Septembre 2022 - Juin 2023",
       location: "I.U.T. de Saint-Dié, Saint-Dié-des-Vosges (88100)",
     },

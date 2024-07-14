@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import Html5File from '../../public/icones/html5.png';
 import Css3File from '../../public/icones/css3.png';
 import JsFile from '../../public/icones/js.png';

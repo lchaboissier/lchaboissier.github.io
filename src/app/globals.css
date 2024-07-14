@@ -72,3 +72,12 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.social-media img {
+  filter: grayscale(100%);
+  transition: filter 0.1s ease;
+}
+
+.social-media:hover img {
+  filter: grayscale(0%);
+}

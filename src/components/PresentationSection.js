@@ -9,10 +9,10 @@ const PresentationSection = () => {
   return (
     <section id="presentation" className="bg-gray-100 dark:bg-gray-800 py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-2">
+        <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-3">
           À propos de moi
         </h2>
-        <div class="flex justify-center items-center space-x-5 text-indigo-500 mb-8">                
+        <div class="flex justify-center items-center space-x-5 text-indigo-500 mb-10">                
           <div class="w-40 h-1.5 rounded-full bg-indigo-500"></div>
           <div class="w-10 h-1.5 rounded-full bg-indigo-500"></div>
           <div class="w-10 h-1.5 rounded-full bg-indigo-500"></div>
