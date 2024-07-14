@@ -5,6 +5,8 @@ import Link from "next/link";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 import '../app/globals.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const Header = () => {
   const [theme, setTheme] = useState("light");
 
