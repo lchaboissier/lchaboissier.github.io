@@ -8,6 +8,7 @@ import ProjetsSection from '@/components/ProjetsSection';
 import ExperiencesSection from '@/components/ExperiencesSection';
 import FormationSection from '@/components/FormationsSection';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
+import '../app/globals.css';
 
 export default function Home() {
   return (

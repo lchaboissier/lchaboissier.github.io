@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const AccueilSection = () => {
   return (
-  <section id="hero" className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 p-8">
+  <section id="hero" className="bg-white min-h-screen flex items-center justify-center p-8">
     <div className="container mx-auto flex flex-col md:flex-row items-center">
       <div className="text-left md:w-1/2">
         <h2 className="text-4xl text-gray-700 dark:text-gray-300 mb-6">Bonjour,</h2>

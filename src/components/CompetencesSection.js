@@ -44,10 +44,7 @@ const tools = [
 
 const CompetencesSection = () => {
   return (
-    <section
-      id="competences"
-      className="min-h-screen flex flex-col items-center bg-white dark:bg-gray-900 p-8"
-    >
+    <section id="competences" className="bg-white min-h-screen flex flex-col items-center dark:bg-slate-900 bg-white p-8">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
           Compétences
