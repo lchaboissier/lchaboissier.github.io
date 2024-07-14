@@ -7,7 +7,7 @@ import CompetencesSection from '@/components/CompetencesSection';
 import ProjetsSection from '@/components/ProjetsSection';
 import ExperiencesSection from '@/components/ExperiencesSection';
 import FormationSection from '@/components/FormationsSection';
-import { config } from '@fortawesome/fontawesome-svg-core';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
         <FormationSection />
       </main>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

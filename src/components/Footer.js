@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import LinkedinFile from '../../public/icones/linkedin.png';
-import GitHubFile from '../../public/icones/github.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -14,14 +14,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400 social-media"
             >
-              <Image
-                src={LinkedinFile}
-                alt="Lien page Linkedin"
-                width={32}
-                height={32}
-                className="text-gray-500 dark:text-gray-400 hover:text-current transition-colors duration-100"
-              />
 
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
             <a
               href="https://github.com/lchaboissier"
@@ -29,13 +23,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400 social-media"
             >
-              <Image
-                src={GitHubFile}
-                alt="Lien page GitHub"
-                width={32}
-                height={32}
-                className="text-gray-500 dark:text-gray-400 hover:text-current transition-colors duration-100"
-              />
+              <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
           </div>
           <p className="text-sm">&copy; 2024 Luca Chaboissier</p>

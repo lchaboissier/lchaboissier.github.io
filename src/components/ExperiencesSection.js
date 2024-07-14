@@ -69,7 +69,7 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="min-h-screen flex flex-col items-center bg-white dark:bg-gray-900 p-8">
+    <section id="experiences" className="min-h-screen flex flex-col items-center bg-white dark:bg-gray-900 p-8">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Expériences</h2>
         <div class="flex items-center space-x-5 text-indigo-500 mb-8">                

@@ -56,6 +56,11 @@ const Header = () => {
             </Link>
           </li>
           <li>
+            <Link href="#formations" legacyBehavior>
+              <a className="text-white">Formations</a>
+            </Link>
+          </li>
+          <li>
             <button
               onClick={toggleTheme}
               className="p-2 rounded-full bg-gray-700 text-white focus:outline-none transition duration-500"
