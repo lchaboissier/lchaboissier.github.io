@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container mx-auto flex flex-col items-center">
           <div className="flex space-x-4 mb-4">
             <a
-              href="https://www.linkedin.com/in/votre-profil-linkedin"
+              href="https://www.linkedin.com/in/luca-chaboissier/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400 social-media"
