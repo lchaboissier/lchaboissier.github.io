@@ -36,7 +36,6 @@ body {
     rgb(var(--background-start-rgb)) !important;
 }
 
-/* Ajouter des styles spécifiques pour renforcer le mode sombre */
 html.dark body {
   background: linear-gradient(
       to bottom,
@@ -47,17 +46,21 @@ html.dark body {
   color: rgb(var(--foreground-rgb)) !important;
 }
 
-/* Styles spécifiques pour les sections */
 html.dark #hero,
 html.dark #competences,
 html.dark #experiences {
-  background-color: rgb(15, 23, 42) !important;
+  background-color: rgb(15, 23, 42) !important; /* Tailwind gray-800 */
 }
 
 html.dark #presentation,
 html.dark #projets,
 html.dark #formations {
   background-color: rgb(30, 41, 59) !important; /* Tailwind gray-900 */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 @layer utilities {
