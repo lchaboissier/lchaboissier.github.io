@@ -54,7 +54,7 @@ const CompetencesSection = () => {
           <div className="w-20 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
         <h3 className="text-2xl text-gray-700 dark:text-gray-300 mb-6">
-          Langages de programmation utilisés
+          Langages Informatique utilisés
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
           {skills.map((skill) => (
