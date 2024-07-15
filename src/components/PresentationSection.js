@@ -3,7 +3,6 @@ import PresentationImage from '../../public/images/presentation-image.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import '../app/globals.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const PresentationSection = () => {
   return (

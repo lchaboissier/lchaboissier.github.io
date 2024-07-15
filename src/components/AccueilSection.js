@@ -4,8 +4,6 @@ import ProfileImage from '../../public/images/profileImage.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 const AccueilSection = () => {
   return (
   <section id="hero" className="bg-white min-h-screen flex items-center justify-center p-8">
