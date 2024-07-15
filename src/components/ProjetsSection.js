@@ -64,9 +64,9 @@ const ProjectsSection = () => {
                 height={300}
                 className="object-cover w-full h-48"
               />
-              <div className="p-6">
-                <h3 className="text-2xl font-semibold text-gray-900 dark:text-black mb-2">{project.title}</h3>
-                <p className="text-gray-700 dark:text-black-300 mb-4">{project.description}</p>
+              <div className="p-6 dark:bg-slate-950">
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white dark:text-black mb-2">{project.title}</h3>
+                <p className="text-gray-700 dark:text-black-300 dark:text-gray-300 mb-4">{project.description}</p>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{project.type}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.skills.map((skill, idx) => (
