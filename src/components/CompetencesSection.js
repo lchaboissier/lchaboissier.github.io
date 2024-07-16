@@ -44,51 +44,28 @@ const tools = [
 
 const CompetencesSection = () => {
   return (
-    <section id="competences" className="bg-white min-h-screen flex flex-col items-center dark:bg-slate-900 bg-white p-8">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-          Compétences
-        </h2>
-        <div className="flex items-center space-x-5 text-indigo-500 mb-8">                
+    <section id="competences" className="bg-white dark:bg-slate-900 min-h-screen flex flex-col items-center p-8">
+      <div className="container w-full max-w-6xl  mx-auto">
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Compétences</h2>
+        <div className="flex items-center space-x-5 text-indigo-500 mb-8">
           <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>
           <div className="w-20 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
-        <h3 className="text-2xl text-gray-700 dark:text-gray-300 mb-6">
-          Langages Informatique utilisés
-        </h3>
+        <h3 className="text-2xl text-gray-700 dark:text-gray-300 mb-6">Langages Informatiques Utilisés</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
           {skills.map((skill) => (
             <div key={skill.name} className="flex flex-col items-center skill-icon">
-              <Image
-                src={skill.icon}
-                alt={skill.name}
-                width={64}
-                height={64}
-                className="text-gray-500 dark:text-gray-400 hover:text-current transition-colors duration-100"
-              />
-              <h4 className="mt-2 text-lg font-semibold text-gray-900 dark:text-white">
-                {skill.name}
-              </h4>
+              <Image src={skill.icon} alt={skill.name} width={64} height={64} className="text-gray-500 dark:text-gray-400 hover:text-current transition-colors duration-100" />
+              <h4 className="mt-2 text-lg font-semibold text-gray-900 dark:text-white">{skill.name}</h4>
             </div>
           ))}
         </div>
-
-        <h3 className="text-2xl text-gray-700 dark:text-gray-300 mb-6">
-          Outils utilisés
-        </h3>
+        <h3 className="text-2xl text-gray-700 dark:text-gray-300 mb-6">Outils Utilisés</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {tools.map((tool) => (
             <div key={tool.name} className="flex flex-col items-center tool-icon">
-              <Image
-                src={tool.icon}
-                alt={tool.name}
-                width={64}
-                height={64}
-                className="text-gray-500 dark:text-gray-400 hover:text-current transition-colors duration-300"
-              />
-              <h4 className="mt-2 text-lg font-semibold text-gray-900 dark:text-white">
-                {tool.name}
-              </h4>
+              <Image src={tool.icon} alt={tool.name} width={64} height={64} className="text-gray-500 dark:text-gray-400 hover:text-current transition-colors duration-100" />
+              <h4 className="mt-2 text-lg font-semibold text-gray-900 dark:text-white">{tool.name}</h4>
             </div>
           ))}
         </div>

@@ -22,11 +22,11 @@ const formations = [
       location: "Lycée Jean de Lattre de Tassigny, La Roche-sur-Yon (85000)",
     },
 ];
-  
+
   const FormationSection = () => {
     return (
       <section id="formations" className="min-h-screen bg-gray-100 flex flex-col items-center p-8">
-        <div className="container mx-auto">
+        <div className="container w-full max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Formations</h2>
           <div className="flex items-center space-x-5 text-indigo-500 mb-8">                
             <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>

@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -45,15 +47,19 @@ const projects = [
   },
 ];
 
+const handleDetailsClick = () => {
+  alert("Le bouton Détails sera disponible prochainement !");
+};
+
 const ProjectsSection = () => {
   return (
-    <section id="projets" className="min-h-screen bg-gray-100 flex flex-col items-center p-8">
+    <section id="projets" className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center p-8">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Projets</h2>
         <div className="flex items-center space-x-5 text-indigo-500 mb-8">                
           <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
-        <p className="dark:text-gray-300 text-2xl font-normal text-gray-700 mb-4">L&apos;ensemble des créations que j&apos;ai pu réaliser</p>
+        <p className="dark:text-gray-300 text-2xl font-normal text-gray-700 mb-4">L'ensemble des créations que j'ai pu réaliser</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
@@ -65,8 +71,8 @@ const ProjectsSection = () => {
                 className="object-cover w-full h-48"
               />
               <div className="p-6 dark:bg-slate-950">
-                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white dark:text-black mb-2">{project.title}</h3>
-                <p className="text-gray-700 dark:text-black-300 dark:text-gray-300 mb-4">{project.description}</p>
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">{project.title}</h3>
+                <p className="text-gray-700 dark:text-gray-300 mb-4">{project.description}</p>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{project.type}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.skills.map((skill, idx) => (
@@ -76,9 +82,12 @@ const ProjectsSection = () => {
                   ))}
                 </div>
                 <div className="flex space-x-4">
-                  <a href={project.detailsLink} className="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-100 disabled">
+                  <button
+                    onClick={handleDetailsClick}
+                    className="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-100"
+                  >
                     Détails
-                  </a>
+                  </button>
                   <a href={project.sourceLink} className="bg-gray-800 text-white py-2 px-4 rounded-full hover:bg-gray-900 transition duration-100">
                     <FontAwesomeIcon icon={faGithub} />
                     <span className="ml-2">Code Source</span>

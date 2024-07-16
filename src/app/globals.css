@@ -26,6 +26,19 @@ html {
   transition: background-color 1s ease, color 1s ease;
 }
 
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   color: rgb(var(--foreground-rgb)) !important;
   background: linear-gradient(
