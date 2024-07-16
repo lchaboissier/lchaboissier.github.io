@@ -16,7 +16,7 @@ const experiences = [
     period: "Juillet 2023 - Août 2023",
     location: "Saint-Étienne-du-Bois, France",
     tasks: [
-      "Assemblage et montage de pièces lié aux poids lourds.",
+      "Assemblage et montage de pièces liées aux poids lourds.",
     ],
   },
   {
