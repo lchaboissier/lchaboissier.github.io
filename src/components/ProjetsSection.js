@@ -59,7 +59,7 @@ const ProjectsSection = () => {
         <div className="flex items-center space-x-5 text-indigo-500 mb-8">                
           <div className="w-40 h-1.5 rounded-full bg-indigo-500"></div>
         </div>
-        <p className="dark:text-gray-300 text-2xl font-normal text-gray-700 mb-4">L'ensemble des créations que j'ai pu réaliser</p>
+        <p className="dark:text-gray-300 text-2xl font-normal text-gray-700 mb-4">L&apos;ensemble des créations que j&apos;ai pu réaliser</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
