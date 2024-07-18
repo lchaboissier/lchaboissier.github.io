@@ -82,6 +82,28 @@ a {
   }
 }
 
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background-color: #4f46e5; /* Indigo-500 */
+  border-radius: 9999px;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
 .skill-icon img {
   filter: grayscale(100%);
   transition: filter 0.1s ease;

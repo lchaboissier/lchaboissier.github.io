@@ -23,7 +23,7 @@ const PresentationSection = () => {
               Passionné par le développement web, je suis constamment à la recherche de nouveaux défis et opportunités pour apprendre et grandir.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              J&apos;aime travailler en équipe et suis toujours prêt à partager mes connaissances et à apprendre des autres.
+              J&apos;aime travailler en équipe et je suis toujours prêt à partager mes connaissances et à apprendre des autres.
             </p>
             <div className="mt-8 flex">
               <a href="/documents/CV - Luca Chaboissier.pdf" target="_blank" className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded">
