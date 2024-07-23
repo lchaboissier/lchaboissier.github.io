@@ -20,10 +20,14 @@ const PresentationSection = () => {
           </div>
           <div className="md:w-1/2 md:pl-8">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-              Passionné par le développement web, je suis constamment à la recherche de nouveaux défis et opportunités pour apprendre et grandir.
+              Je m&apos;appelle Luca Chaboissier et je suis étudiant en 3ème année de Licence Informatique en parcours conception et développement d&apos;application à l&apos;UBO de Brest ! 👨‍🎓
+              {/* Passionné par le développement web, je suis constamment à la recherche de nouveaux défis et opportunités pour apprendre et grandir. */}
+            </p>
+            <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              J&apos;envisage de poursuivre mes études en me spécialisant en développement afin de me préparer un diplôme d&apos;ingénieur à l&apos;école ISEN de Nantes pendant 3 ans 💻.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              J&apos;aime travailler en équipe et je suis toujours prêt à partager mes connaissances et à apprendre des autres.
+              Vous trouverez ci-dessous mes compétences, mes expériences et les différents projets que j&apos;ai pu réaliser pour connaître plus d&apos;informations sur moi 🙂.
             </p>
             <div className="mt-8 flex">
               <a href="/documents/CV - Luca Chaboissier.pdf" target="_blank" className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded">
