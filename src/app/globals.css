@@ -85,7 +85,6 @@ a {
 .nav-link {
   position: relative;
   display: inline-block;
-  padding-bottom: 0.5rem;
 }
 
 .nav-link::after {
