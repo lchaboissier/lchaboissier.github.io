@@ -1,14 +1,14 @@
-"use client";
 
-import { useParams } from 'next/navigation';
 import projets from '../../../data/projets';
 import Image from 'next/image';
 
-export default function ProjetDetails() {
-  const params = useParams();
-  const { id } = params;
+export async function generateStaticParams() {
+  const id = projets.map(projet => ({ id: projet.id }));
+  return id;
+}
 
-  const projet = projets.find((projet) => projet.id === id);
+export default function ProjetDetails() {
+  const projet = projets.find((projet) => projet.id);
 
   if (!projet) {
     return <div>Projet non trouvé</div>;
