@@ -40,3 +40,7 @@ export default function ProjetDetails() {
     </section>
   );
 };
+
+export function generateStaticParams() {
+  return [ { slug: ["/"] } ]
+}
