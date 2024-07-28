@@ -41,7 +41,7 @@ const projets = [
     type: "Application Web",
     skills: ["HTML", "SCSS", "TypeScript", "Angular"],
     image: KeywatchProjet,
-    projetLink: "https://example.com/keywatch",
+    projetLink: "https://lchaboissier.github.io/keywatch/",
     sourceLink: "https://github.com/lchaboissier/keywatch",
   },
 ];
