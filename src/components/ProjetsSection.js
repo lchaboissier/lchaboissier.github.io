@@ -6,6 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import projets from '../data/projets';
 
+const handleDetailsClick = () => {
+  alert("Le bouton Détails sera disponible prochainement !");
+};
+
 const ProjetsSection = () => {
   return (
     <section id="projets" className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center p-8">
@@ -37,11 +41,9 @@ const ProjetsSection = () => {
                   ))}
                 </div>
                 <div className="flex space-x-4">
-                  <Link href={`/projets/${projet.id}`} legacyBehavior>
-                    <a className="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-100">
-                      Détails
-                    </a>
-                  </Link>
+                  <button onClick={handleDetailsClick} className="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-100">
+                    Détails
+                  </button>
                   <a href={projet.sourceLink} className="bg-gray-800 text-white py-2 px-4 rounded-full hover:bg-gray-900 transition duration-100">
                     <FontAwesomeIcon icon={faGithub} />
                     <span className="ml-2">Code Source</span>
