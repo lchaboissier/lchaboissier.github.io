@@ -30,7 +30,7 @@ const PresentationSection = () => {
               Vous trouverez ci-dessous mes compétences, mes expériences et les différents projets que j&apos;ai pu réaliser pour connaître plus d&apos;informations sur moi 🙂.
             </p>
             <div className="mt-8 flex">
-              <a href="/documents/CV - Luca Chaboissier.pdf" target="_blank" className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded">
+              <a href="/documents/CV - Luca Chaboissier.pdf" target="_blank" className="bg-gray-700 hover:bg-gray-900 text-white font-bold hover:bg-gray-800 transition duration-100 py-2 px-4 rounded">
                 <FontAwesomeIcon icon={faDownload} />
                 <span className="ml-2">Télécharger mon CV</span>
               </a>
