@@ -20,7 +20,7 @@ const PresentationSection = () => {
           </div>
           <div className="md:w-1/2 md:pl-8">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-              Je m&apos;appelle Luca Chaboissier et je suis alternant développeur web au sein d'April Marine et étudiant en Mastère Expert en Développement Web au campus Ynov à Nantes ! 👨‍🎓
+              Je m&apos;appelle Luca Chaboissier et je suis alternant développeur web au sein d&apos;April Marine et étudiant en Mastère Expert en Développement Web au campus Ynov à Nantes ! 👨‍🎓
               {/* Passionné par le développement web, je suis constamment à la recherche de nouveaux défis et opportunités pour apprendre et grandir. */}
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
