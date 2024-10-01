@@ -2,6 +2,11 @@ import React from 'react';
 
 const formations = [
     {
+      title: "Mastère Expert en Développement Web",
+      period: "Octobre 2024 - Maintenant",
+      location: "Campus Ynov Nantes, Nantes (44000)",
+    },
+    {
       title: "Licence Informatique — Conception et Développement d'Applications",
       period: "Septembre 2023 - Juin 2024",
       location: "Université de Bretagne Occidentale, Brest (29200)",

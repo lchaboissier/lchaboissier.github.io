@@ -2,6 +2,15 @@ import React from 'react';
 
 const experiences = [
   {
+    title: "Alternance - Développeur Web",
+    company: "April MARINE",
+    period: "Octobre 2024 - Maintenant",
+    location: "Les Sables d'Olonne, France",
+    tasks: [
+      
+    ],
+  },
+  {
     title: "Stage - Développeur Informatique",
     company: "Addix Informatique",
     period: "Avril 2024 - Juin 2024",
